@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Documentation
 
-Currently, two official plugins are available:
+//
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To run this project you need to  install and run the dev tools
 
-- Configure the top-level `parserOptions` property like this:
+`npm i`
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+`npm run dev`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Features
+
+- Simple and efficient lead tracking
+- Sorting of leads
+- Assigning leads to employees
+- Full history 
+
+
+## Used By
+
+This project is used by the following companies:
+
+- NCODESOFT
+- moj-biznis.rs
+
+
+# Usage
+
+        Login / Register
+        Create profile for your employees (if any)
+        Create / import lead list
+        Using the profile of lead you can 
+            Create deals
+            Upload attachments
+            See history
+            Assign lead to a employee
+
+
+
+
+## Authors
+
+- [@CirkaN](https://www.github.com/CirkaN)
+- [@beganovichh](https://www.github.com/beganovichh)
+
