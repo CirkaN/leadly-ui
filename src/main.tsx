@@ -2,10 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import LeadsIndex from "./routes/leads/LeadsIndex";
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <div>Hello world!</div>,
+    path: "/leads",
+    element: <LeadsIndex />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(
